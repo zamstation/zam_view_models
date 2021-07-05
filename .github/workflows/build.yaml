@@ -1,10 +1,10 @@
-name: Build Package
+name: Build
 
 on:
   push:
-    branches-ignore: ["**", temp]
+    branches-ignore: [temp]
   pull_request:
-    branches-ignore: ["**", temp]
+    branches-ignore: [temp]
 
 jobs:
   test:
