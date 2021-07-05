@@ -1,5 +1,11 @@
 # 0.0.1
 
-- Includes @component_1@.
-- Includes @component_2@.
-- Includes @component_3@.
+- Includes `ValueViewModel`
+- Includes `TextViewModel`
+- Includes `ValueTextViewModel`
+- Includes `TextFieldViewModel`
+- Includes `ListViewModel`
+- Includes `SliderViewModel`
+- Includes `ToastViewModel`
+- Includes `TextToastViewModel`
+- Includes `TextCopiedToastViewModel`
