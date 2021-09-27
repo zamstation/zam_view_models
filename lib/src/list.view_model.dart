@@ -1,5 +1,8 @@
 import '_.imports.dart';
 
+///
+/// A base class to represent a collection of view models.
+///
 @immutable
 class ListViewModel<VIEW_MODEL extends ViewModel> extends ViewModel {
   final List<VIEW_MODEL> items;
