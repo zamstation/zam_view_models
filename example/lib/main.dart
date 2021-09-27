@@ -1,10 +1,10 @@
 import 'package:zam_view_models/zam_view_models.dart';
 
 class MyViewModel extends TextCopiedToastViewModel {
-  MyViewModel() : super();
+  const MyViewModel() : super();
 }
 
 void main() {
-  final vm = MyViewModel();
-  print(vm.text); // prints 'Copied.'.
+  const vm = MyViewModel();
+  print(vm.text); // prints 'Copied'.
 }
