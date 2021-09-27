@@ -3,5 +3,5 @@ import 'text.view_model.dart';
 
 @immutable
 class TextFieldViewModel extends TextViewModel {
-  TextFieldViewModel(String text) : super(text);
+  const TextFieldViewModel(String text) : super(text);
 }

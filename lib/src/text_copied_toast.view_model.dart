@@ -3,7 +3,7 @@ import 'text_toast.view_model.dart';
 
 @immutable
 class TextCopiedToastViewModel extends TextToastViewModel {
-  static const defaultText = 'Copied.';
+  static const defaultText = 'Copied';
 
-  TextCopiedToastViewModel([String text = defaultText]) : super(text);
+  const TextCopiedToastViewModel([String text = defaultText]) : super(text);
 }

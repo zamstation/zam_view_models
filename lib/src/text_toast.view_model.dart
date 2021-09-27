@@ -4,13 +4,11 @@ import 'toast.view_model.dart';
 
 @immutable
 class TextToastViewModel extends ToastViewModel implements TextViewModel {
+  @override
   final String text;
+
   @override
   get props => [text];
 
-  TextToastViewModel(this.text);
-}
-
-class MyViewModel extends TextToastViewModel {
-  MyViewModel(String text) : super(text);
+  const TextToastViewModel(this.text);
 }
